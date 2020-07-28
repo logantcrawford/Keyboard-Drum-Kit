@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Drum Kit</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-text">
+        <h1>Trap Drum Kit</h1>
+    </div>
+    <section class="section__page">
+        <div class="key__container">
+            <button data-key="65" class="key_block" value="clap" autofocus>
+                <div class="key-letter">A</div>
+                <div class="key-title">Clap</div>
+            </button>
+            <button data-key="83" class="key_block" value="hihat">
+                <div class="key-letter">S</div>
+                <div class="key-title">Hihat</div>
+            </button>
+            <button data-key="68" class="key_block" value="kick">
+                <div class="key-letter">D</div>
+                <div class="key-title">Kick</div>
+            </button>
+            <button data-key="70" class="key_block" value="openhat">
+                <div class="key-letter">F</div>
+                <div class="key-title">Open Hat</div>
+            </button>
+            <button data-key="71" class="key_block" value="808">
+                <div class="key-letter">G</div>
+                <div class="key-title">808</div>
+            </button>
+            <button data-key="72" class="key_block" value="ride">
+                <div class="key-letter">H</div>
+                <div class="key-title">Ride</div>
+            </button>
+            <button data-key="74" class="key_block" value="snare">
+                <div class="key-letter">J</div>
+                <div class="key-title">Snare</div>
+            </button>
+            <button data-key="75" class="key_block" value="tom">
+                <div class="key-letter">K</div>
+                <div class="key-title">Tom</div>
+            </button>
+            <button data-key="76" class="key_block" value="fx">
+                <div class="key-letter">L</div>
+                <div class="key-title">FX</div>
+            </button>
+        </div>
+    </section>
+    <audio data-key="65" src="sfx/MM-TDHQ-Claps-01.wav"></audio>
+    <audio data-key="83" src="sfx/MM-TDHQ-Hats-03.wav"></audio>
+    <audio data-key="68" src="sfx/MM-TDHQ-Kick-01.wav"></audio>
+    <audio data-key="70" src="sfx/MM-TDHQ-OpenHats-01.wav"></audio>
+    <audio data-key="71" src="sfx/MM-TDHQ-808-01.wav"></audio>
+    <audio data-key="72" src="sfx/MM-TDHQ-Rides-03.wav"></audio>
+    <audio data-key="74" src="sfx/MM-TDHQ-Snare-03.wav"></audio>
+    <audio data-key="75" src="sfx/MM-TDHQ-Toms-01.wav"></audio>
+    <audio data-key="76" src="sfx/MM-TDHQ-FX-04.wav"></audio>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
